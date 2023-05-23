@@ -1,0 +1,137 @@
+body {
+  background-image: url(../img/bgart.jpg);
+  background-size: cover;
+}
+
+.isi {
+  background-color: white;
+  box-shadow: 2px 2px 4px rgba(105, 105, 105, 0.7);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.navbar {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 20px;
+}
+
+.navbar-brand {
+  font-family: viga;
+  font-size: 16px;
+}
+
+.navbar img {
+  width: 50px;
+  position: relative;
+}
+
+/* utility */
+.tombol {
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+
+.seemore {
+  text-transform: uppercase;
+  border-radius: 40px;
+  font-size: 10px;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+
+/* content */
+.header {
+  font-size: 42px;
+  margin-top: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: poppins;
+  margin-bottom: 20px;
+}
+
+.daftarkoperasi {
+  font-family: poppins;
+}
+
+.hero {
+  width: 40vw;
+  height: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.alamat {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.alamat span {
+  margin-right: 30px;
+}
+
+.footer {
+  margin-top: 30px;
+  color: #acacac;
+  margin-bottom: 10px;
+}
+
+/* responsive breakpoint */
+
+@media (min-width: 992px) {
+  .navbar {
+    padding-bottom: 10px;
+  }
+
+  .navbar-brand {
+    font-size: 32px;
+  }
+
+  .navbar-brand,
+  .nav-link {
+    color: rgb(0, 0, 0) !important;
+    text-shadow: 1px 1px 1px rgba(105, 105, 105, 0.7);
+  }
+
+  .navbar img {
+    width: 80px;
+    position: relative;
+    bottom: 2px;
+    margin-right: 10px;
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #0bdc2e;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .seemore {
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+
+  .hero {
+    width: 40vw;
+    height: 420px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* display: flex;
+    justify-content: center; */
+  }
+}
